@@ -43,8 +43,8 @@ diff(F,1,1)
 Furthermore, PUChebfuns can be symboically combined like so:
 
  ```Matlab
-F1 = PUchebfun(@(x,y) atan(50*(x+y.^2)));
-F2 = PUchebfun(@(x,y) atan(50*(x.^2+y)));
+F1 = PUchebfun(@(x,y) atan(100*(x+y.^2)));
+F2 = PUchebfun(@(x,y) atan(100*(x.^2+y)));
 F3 = F1 + F2;
 plot(F3)
 figure(), show(F3);
