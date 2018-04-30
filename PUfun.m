@@ -119,7 +119,7 @@ classdef (Abstract) PUfun < handle & matlab.mixin.Copyable
         end
         
         function N = norm(obj)
-            N = sum(obj^2);
+            N = sqrt(sum(obj^2));
         end
         % diff_Tree = diff(obj,diff_dim,order)
         % This method computes thd approximation of the derivative
