@@ -40,7 +40,7 @@ sum(F)
 diff(F,1,1)
 ```
 
-Furthermore, PUChebfuns can be symboically combined like so:
+Furthermore, PUchebfuns can be symboically combined like so:
 
  ```Matlab
 F1 = PUchebfun(@(x,y) atan(100*(x+y.^2)));
