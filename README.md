@@ -3,6 +3,7 @@
 PUchebfun provides a way to represent multivariate functions (up to 3D) with a partition of unity approximation consisting of
 Chebyshev tensor product polynomials. These approximations are infinitely smooth, highly accurate and memory efficient. The overlapping domains are formed through recursive bisection, and are organized into a binary tree.
 
+The paper describing the method can be found [here](https://arxiv.org/abs/1805.00423).
 
 ## Prerequisites
 
